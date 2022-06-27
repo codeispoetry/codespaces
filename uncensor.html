@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+https://www.codewars.com/kata/5ff6060ed14f4100106d8e6f/train/javascript
+	<script>
+	function uncensor(infected, discovered) {
+
+		let disc = discovered.split('');
+
+		while(disc.length > 0){
+			infected = infected.replace('*', disc.shift())
+		}
+
+		return infected;
+	}
+
+	function uncensor2(infected, discovered) {
+		const arr = [...discovered]
+		return [...infected].map(el=> el === '*' ? arr.shift() : el).join('')
+	}
+	
+
+	uncensor( 'A**Z*N*', 'MAIG');
+
+	</script>
+</body>
+</html>
