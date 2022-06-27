@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+https://www.codewars.com/kata/5815f7e789063238b30001aa/javascript
+	<script>
+	function redistributeWealth(wealth) {
+		// Mutate wealth
+		
+		const total = wealth.reduce( 
+			( prev, cur ) => prev + cur, 
+			0
+		);
+
+		const same = total / wealth.length;
+
+		return wealth.fill(same);
+
+	}
+
+	let wealth = [0, 10,];
+	console.log(redistributeWealth(wealth));
+
+	</script>
+</body>
+</html>
