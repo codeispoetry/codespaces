@@ -3,18 +3,22 @@
 urlify string
 uncensor
 passwordtest
+capitalizeEveryWord
 
 ///// ARRAYS /////
 allpossibilities
 arraydiff
 wealth
+uniqueingredients
 
 //// ALGRORITHMEN ////
 rockpaperscissors
 IBANchecksum
+turleToNorth
 
 
 //// DATE AND TIME ////
 validcoupon
 newyearscountdown
-
+orderbydate
+isOpenOrClose
