@@ -1,0 +1,20 @@
+
+//// STRINGS /////
+urlify string
+uncensor
+passwordtest
+
+///// ARRAYS /////
+allpossibilities
+arraydiff
+wealth
+
+//// ALGRORITHMEN ////
+rockpaperscissors
+IBANchecksum
+
+
+//// DATE AND TIME ////
+validcoupon
+newyearscountdown
+
