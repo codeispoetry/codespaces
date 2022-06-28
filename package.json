@@ -1,0 +1,22 @@
+{
+  "name": "codespaces",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codeispoetry/codespaces.git"
+  },
+  "author": "Thomas Rose",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codeispoetry/codespaces/issues"
+  },
+  "homepage": "https://github.com/codeispoetry/codespaces#readme",
+  "dependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0"
+  }
+}
