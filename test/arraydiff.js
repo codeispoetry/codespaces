@@ -1,5 +1,7 @@
 function arrayDiff(a, b) {
-    return a.filter(e => !b.includes(e));
+    // Write your code here
+
+    
 }
 
 const chai = require("chai");

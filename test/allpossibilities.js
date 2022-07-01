@@ -1,11 +1,9 @@
 
-//https://www.codewars.com/kata/59b710ed70a3b7dd8f000027/train/javascript
-	function isAllPossibilities(x){
-		r = [...new Set(x.sort().map((currentValue, index) => currentValue - index))];
+function isAllPossibilities(x){
+	// Write your code here
 
-		return((r.length == 1 && r[0] == 0));
-
-	}
+	
+}
 	
 
 	 // return x.length > 0 ? x.every((a,i) => x.includes(i)) : false;

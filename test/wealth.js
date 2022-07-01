@@ -1,14 +1,9 @@
 // https://www.codewars.com/kata/5815f7e789063238b30001aa/javascript
 
 function redistributeWealth(wealth) {
-	const total = wealth.reduce( 
-		( prev, cur ) => prev + cur, 
-		0
-	);
+    // Write your code here
 
-	const same = Math.floor(total / wealth.length);
 
-	return wealth.fill(same);
 }
 
 

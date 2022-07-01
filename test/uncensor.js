@@ -1,21 +1,10 @@
 //https://www.codewars.com/kata/5ff6060ed14f4100106d8e6f/train/javascript
 
 	function uncensor(infected, discovered) {
+		// Write your code here
 
-		let disc = discovered.split('');
-
-		while(disc.length > 0){
-			infected = infected.replace('*', disc.shift())
-		}
-
-		return infected;
+		
 	}
-
-	function uncensor2(infected, discovered) {
-		const arr = [...discovered]
-		return [...infected].map(el=> el === '*' ? arr.shift() : el).join('')
-	}
-
 
 
 const chai = require("chai");
